@@ -8,11 +8,11 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 
-pp @store1
-pp @store2
+# pp @store1
+# pp @store2
 
 @store1.name = "Victoria"
 @store1.save
 
-@store1 = Store.find_by(id: 1)
-pp @store1
+# @store1 = Store.find_by(id: 1)
+# pp @store1
