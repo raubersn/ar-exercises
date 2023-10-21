@@ -20,3 +20,5 @@ Store.create(name: "Gastown",
             annual_revenue: 190000,
             mens_apparel: true,
             womens_apparel: false)
+
+puts "Total numbers of stores in the databse: #{Store.count}"
