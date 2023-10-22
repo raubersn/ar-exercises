@@ -17,13 +17,18 @@ puts "----------"
                         hourly_rate: 49)
 @store1.employees.create(first_name: "Galo",
                         last_name: "Doido",
-                        hourly_rate: 13)
+                        hourly_rate: 113)
 @store2.employees.create(first_name: "Eder",
                         last_name: "Aleixo",
                         hourly_rate: 80)
 @store2.employees.create(first_name: "Hulk",
                         last_name: "Paraiba",
-                        hourly_rate: 7)
+                        hourly_rate: 77)
+
+Employee.create(first_name: "FIRST",
+                last_name: "last",
+                hourly_rate: 50,
+                store_id: 13)
 
 # pp Employee.all
 # pp @store1.employees.all
