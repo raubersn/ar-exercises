@@ -9,7 +9,7 @@ require 'money'
 Money.locale_backend = :i18n
 I18n.locale = :en
 
-puts "Exercise 5"
+puts "\nExercise 5"
 puts "----------"
 
 # Your code goes here ...
